@@ -42,8 +42,9 @@ int main() {
     Strang str(v);
     vector<char> g = { 'f' ,'r' ,'i' ,'e' ,'n' ,'d' };
     Strang str1(g);
-    int a = str1.Size();
     Strang str3;
+    int a = str1.Size();
+    
     cin >> str3;
     cout << a << "\n";
     cout << str + str1;
