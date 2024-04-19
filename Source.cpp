@@ -43,6 +43,7 @@ int main() {
     vector<char> g = { 'f' ,'r' ,'i' ,'e' ,'n' ,'d' };
     Strang str1(g);
     Strang str3;
+
     int a = str1.Size();
     
     cin >> str3;
